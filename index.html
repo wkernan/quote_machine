@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Caveat+Brush' rel='stylesheet' type='text/css'>
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Have A Quote</h1>
+      <hr></hr>
+      <h2>Click the button to start your day off with a random quote</h2>
+      </br>
+      <button type="button" class="btn btn-default btn-lg" onclick="loadXMLDoc()">Quote Me!</button>
+      <div class="well center-block">
+        <h3 id="quote"></h3>
+        <div id="new-button">
+        </div>
+      </div>
+      <div>
+        <p style="color:#26A65B;">powered by <span style="z-index:50;font-size:0.9em;"><img class="nwquotes" src="https://www.dropbox.com/s/n7e4ewwniu8j0pr/quotes.PNG?raw=1"><a href="http://www.quotes.net" target="_blank" title="Powered by quotes from quotes.net" style="color: #9fcc25; margin-left: 4px; vertical-align: middle;">quotes.net</a></span></p>
+      </div>
+    </div>
+    <script>
+      window.twttr = (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0],
+      t = window.twttr || {};
+    if (d.getElementById(id)) return t;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "https://platform.twitter.com/widgets.js";
+    fjs.parentNode.insertBefore(js, fjs);
+   
+    t._e = [];
+    t.ready = function(f) {
+      t._e.push(f);
+    };
+   
+    return t;
+  }(document, "script", "twitter-wjs"));
+    </script>
+  </body>
+  <script src="assets/js/script.js"></script>
+</html>

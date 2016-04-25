@@ -1,0 +1,55 @@
+body {
+  background: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/footer_lodyas.png);
+  font-family: 'Caveat Brush', cursive;
+  text-align: center;
+}
+
+.btn-default {
+  background-color: #E6E6E6;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.nwquotes {
+  background-position: 0 -80px;
+  background-image: http://www.quotes.net/root/app_common/img/footer_network_icons.png
+}
+
+.well {
+  border: 1px solid #000;
+  margin-top: 30px;
+  min-height: 150px;
+  background-color: #E6E6E6;
+}
+
+h1 {
+  font-size: 96px;
+  color: #26A65B;
+  text-shadow: 3px 3px 1px #000;
+}
+
+h2 {
+  font-size: 48px;
+  color:#26A65B;
+  text-shadow: 1px 1px 1px #000;
+  margin-bottom: 0;
+}
+
+button {
+  box-shadow: 4px 4px 1px #000;
+}
+
+button:hover {
+  box-shadow: none;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+}
